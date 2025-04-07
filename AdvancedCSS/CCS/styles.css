@@ -1,0 +1,85 @@
+body {
+    background-color: #ee161f;
+}
+#container  {
+    background-color: #ffffff;
+width: 65%;
+margin: 20px auto;
+border: 2px solid black;
+padding: 20px;
+}
+
+#banner {
+    width: 65%;
+    color: rgb(116, 93, 51);
+}
+
+#col1 {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#col2 {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.heading_style {
+    color: lightgray;
+    text-shadow: 2px 1px 2px #000;
+}
+
+.ID_drift {
+    width: 62%;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    }
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #feeb0c;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+    width: 125 px;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav a:hover {background-color:#ee161f;
+color: rgb(255, 255, 255)
+}
+
+#two_col {
+    display: flex;
+}
+
+h1,h2,h3,footer {
+    text-align: center;
+    color: antiquewhite;
+}
