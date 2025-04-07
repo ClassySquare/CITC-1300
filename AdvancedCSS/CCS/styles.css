@@ -66,7 +66,7 @@ nav li a{
     font-weight: bold;
     text-decoration: none;
     margin: 0 20px;
-    width: 125 px;
+    width: 125px;
     height: 40px;
     line-height: 40px;
 }
@@ -81,5 +81,5 @@ color: rgb(255, 255, 255)
 
 h1,h2,h3,footer {
     text-align: center;
-    color: antiquewhite;
+    color: #ee161f;
 }
