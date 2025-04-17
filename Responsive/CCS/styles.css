@@ -118,6 +118,16 @@ img {
         
     }
 
+    #multi_col2 {
+        display: flex;
+        
+    }
+
+    #multi_col3 {
+        display: flex;
+        
+    }
+
     .col {
         margin: 20px;
         padding: 20px;
