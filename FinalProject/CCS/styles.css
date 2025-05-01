@@ -6,12 +6,15 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;
     background-color:#000000;
-    font-family: "Tomorrow", sans-serif;
-    
-   
+    font-family: "Tomorrow", sans-serif;     
     
 }
 
+iframe {
+    display: flex;
+    margin: 0 auto;
+}
+    
 img {
     display: block;
     margin: 0 auto;
@@ -159,5 +162,17 @@ img {
         width: 250px;
         border-radius: 10px;
         box-shadow: 3px 3px 3px #000000;
+    }
+
+
+    .video_container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .video {
+        flex: 1;
+        min-width: 500px;
+        margin: 10px;
     }
 }
